@@ -2,6 +2,12 @@ package impostos;
 
 public class IKCV extends TemplateDeImpostoCondicional{
 
+	public IKCV(Imposto outroImposto){
+		super(outroImposto);
+	}
+	
+	public IKCV(){}
+	
 	@Override
 	public boolean deveUsarMaximaTaxacao(Orcamento orcamento) {
 		
