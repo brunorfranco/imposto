@@ -15,10 +15,10 @@ public class TesteDeDescontoExtra {
 		
 		System.out.println(reforma.getValor());
 		
-		reforma.finaliza();
+//		reforma.finaliza();
 		
-		reforma.aplicaDescontoExtra();
+//		reforma.aplicaDescontoExtra();
 		
-		System.out.println(reforma.getValor());
+//		System.out.println(reforma.getValor());
 	}
 }
